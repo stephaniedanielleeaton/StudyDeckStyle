@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Echo - Study better not just harder</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="./css/webfonts/all.css" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+    
+<script>
+function forwardTo(url) {
+  location.replace(url);
+}
+</script>
+</head>
+
+<body>
+
+<Nav>
+    <div class="logobox" onclick="forwardTo('./index.html');">
+        <div class="logo">
+            <i class="fas fa-user-astronaut logoadjust"></i>
+        </div>
+        <div class="logowords">
+            Echo
+        </div>
+    </div>
+    
+    <div class="loginbox">
+        <div class="loginlogo">
+            <i class="fas fa-sign-in-alt loginadjust"></i>
+        </div>
+        <div class="loginwords">
+            Log in
+        </div>
+    </div>
+</Nav>
+    
+    
+    
+<mainapparea>
+    <div class="headerbox">
+        <div class="headerboxleft">
+            <div><img class="headerimage" src="./img/banner.png"></div>
+        </div>
+        
+        <div class="headerboxright">
+            <div class="headerboxlarge">Welcome to Echo</div>
+            <div class="headerboxsmall">The easiest way to make and study flashcards
+           <div class="headerboxsmall2">  
+               A better way to study with flashcards is here. Echo makes it simple to create your own flashcards, study those flashcards.<br>
+               Not only is a great way to learn it's also super fun. 
+
+            </div>
+                
+              <div class="headerboxsmall2">  
+                <br><br>
+               Select an option from below: Study Session or Edit Cards & Decks.
+
+            </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
+    <card onclick="forwardTo('./study1.html');">
+        <div class="cardpicbox">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+        <div class="cardwordsbox">
+            <div class="cardwords">
+                Study Session
+            </div>
+        </div>
+    </card>
+
+    <card onclick="forwardTo('./admin.html');">
+        <div class="smallericon cardpicbox">
+            <i class="fas fa-chalkboard-teacher teacheradjust"></i>
+        </div>
+        <div class="cardwordsbox">
+            <div class="cardwords">
+                Edit Cards & Decks
+            </div>
+        </div>
+        <div class="cardwords">
+                
+        </div>
+    </card>
+    
+    
+</mainapparea>    
+    
+    
+</body>
+</html>
